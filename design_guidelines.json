@@ -1,0 +1,195 @@
+{
+  "theme": "dark",
+  "archetype": "Archetype 4: Swiss & High-Contrast (adapted for Dark Operator Vibe)",
+  "rationale": "The audience consists of technical operators, B2B SaaS founders, and VPs of RevOps. They value clarity, data, and lack of fluff. A dark, editorial, 'operator' aesthetic with high-contrast elements, strict typography, and technical blue accents establishes immediate authority. We avoid soft pastels or playful UI, leaning into 'tactical minimalism'.",
+  "colors": {
+    "background": "#050505",
+    "surface": "#111111",
+    "surface_hover": "#1A1A1A",
+    "border": "#27272A",
+    "primary_accent": "#2563EB",
+    "primary_accent_hover": "#1D4ED8",
+    "text_main": "#FFFFFF",
+    "text_muted": "#A1A1AA"
+  },
+  "typography": {
+    "heading_font": "Outfit",
+    "body_font": "IBM Plex Sans",
+    "rules": {
+      "h1": "text-5xl sm:text-6xl+ font-bold tracking-tighter text-white",
+      "h2": "text-3xl sm:text-4xl font-semibold tracking-tight text-white",
+      "h3": "text-xl sm:text-2xl font-medium tracking-tight text-white",
+      "body": "text-base sm:text-lg text-zinc-400 leading-relaxed",
+      "overline": "text-xs sm:text-sm uppercase tracking-[0.2em] text-blue-500 font-semibold"
+    }
+  },
+  "layout_and_spacing": {
+    "section_padding": "py-24 sm:py-32",
+    "container": "max-w-7xl mx-auto px-6 sm:px-8",
+    "card_padding": "p-8 sm:p-12",
+    "grid_strategy": "Tetris Grid for Services (mix of col-span-4, col-span-8) to avoid boring symmetrical layouts. Heavy use of asymmetrical balance.",
+    "border_radius": "rounded-none or max rounded-sm for a serious, sharp operator feel"
+  },
+  "components": {
+    "header": {
+      "style": "Glassmorphism: backdrop-blur-xl bg-[#050505]/60 border-b border-zinc-800 sticky top-0 z-50",
+      "links": "text-sm font-medium text-zinc-300 hover:text-white transition-colors"
+    },
+    "buttons": {
+      "primary": "bg-blue-600 text-white px-6 py-3 font-semibold hover:bg-blue-700 transition-colors border border-blue-500",
+      "secondary": "bg-transparent text-white px-6 py-3 font-semibold border border-zinc-700 hover:border-zinc-500 hover:bg-zinc-900 transition-colors"
+    },
+    "cards": {
+      "style": "bg-[#111111] border border-zinc-800 hover:border-zinc-600 transition-all duration-300",
+      "hover": "-translate-y-1"
+    }
+  },
+  "motion_and_interactions": {
+    "scroll": "Lenis smooth scrolling (MANDATORY)",
+    "entrances": "Framer Motion staggered fade-up for grid items (initial opacity 0, y 20)",
+    "micro_interactions": "Subtle border color shifts on hover, 'Tracing Beam' or subtle glowing edge effect on primary feature cards."
+  },
+  "libraries_to_install": [
+    "framer-motion",
+    "@studio-freight/lenis",
+    "lucide-react",
+    "react-icons",
+    "react-fast-marquee"
+  ],
+  "image_urls": [
+    {
+      "category": "hero_background",
+      "url": "https://static.prod-images.emergentagent.com/jobs/9f5b11c6-bf54-42fb-8053-3b97753d5d37/images/e9c232e4b159876f6ba93d4956b686ff77ac2e9cac6ae3398fb131879dad44ea.png",
+      "description": "Abstract dark tech grid background for the hero section. Place absolute, z-0, opacity-40."
+    },
+    {
+      "category": "section_abstract",
+      "url": "https://static.prod-images.emergentagent.com/jobs/9f5b11c6-bf54-42fb-8053-3b97753d5d37/images/828b401b5ef8dd23be58dbe749efc957b3389242cd7bc19abb729c591def090c.png",
+      "description": "3D geometric shape representing revenue system alignment. Use in 'Core POV / Wedge' section as a visual anchor."
+    },
+    {
+      "category": "testimonial_portrait_1",
+      "url": "https://images.unsplash.com/photo-1769636929388-99eff95d3bf1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHBvcnRyYWl0fGVufDB8fHx8MTc3Njg0MTMwNXww&ixlib=rb-4.1.0&q=85",
+      "description": "Cristina Michelini (Tofu)"
+    },
+    {
+      "category": "testimonial_portrait_2",
+      "url": "https://images.unsplash.com/photo-1762522926157-bcc04bf0b10a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHBvcnRyYWl0fGVufDB8fHx8MTc3Njg0MTMwNXww&ixlib=rb-4.1.0&q=85",
+      "description": "Ryan Barichello (Noterro)"
+    },
+    {
+      "category": "testimonial_portrait_3",
+      "url": "https://images.unsplash.com/photo-1576558656222-ba66febe3dec?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdCUyMHBvcnRyYWl0fGVufDB8fHx8MTc3Njg0MTMwNXww&ixlib=rb-4.1.0&q=85",
+      "description": "Nikolai Grin (Preclose)"
+    },
+    {
+      "category": "testimonial_portrait_4",
+      "url": "https://images.pexels.com/photos/32721690/pexels-photo-32721690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "TJ Lokboj (SyndicationPro)"
+    },
+    {
+      "category": "testimonial_portrait_5",
+      "url": "https://images.pexels.com/photos/14589344/pexels-photo-14589344.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Andrew Swiller (Lanteria)"
+    }
+  ],
+  "content_structure": {
+    "hero": {
+      "headline": "Your GTM isn't broken. Your system is.",
+      "subheadline": "Revtitude helps B2B SaaS companies align marketing, sales, customer success, and product into a single revenue engine—so you stop leaking revenue across the funnel.",
+      "cta": "Get a GTM System Audit"
+    },
+    "problem_agitation": {
+      "title": "Everything looks fine. Until you zoom out.",
+      "points": [
+        "Marketing celebrates MQLs, Sales complains about lead quality.",
+        "Sales closes bad-fit deals, CS struggles with onboarding.",
+        "Product builds features, Marketing doesn't know how to sell them."
+      ],
+      "outcome": "Revenue leakage across the lifecycle / Longer time-to-value / Lower retention and expansion"
+    },
+    "core_pov": {
+      "statement": "Growth is not a channel problem. It's a systems problem.",
+      "description": "Optimize the entire revenue system, not just siloed departments."
+    },
+    "services_grid": {
+      "title": "What We Do",
+      "pillars": [
+        {
+          "title": "Revenue System Architecture",
+          "desc": "Customer journey mapping, handoff breakpoints, lifecycle stages.",
+          "span": "col-span-full md:col-span-8 row-span-2"
+        },
+        {
+          "title": "RevOps Infrastructure",
+          "desc": "HubSpot/Salesforce, attribution reporting, workflow automation.",
+          "span": "col-span-full md:col-span-4"
+        },
+        {
+          "title": "Product-Led Growth Systems",
+          "desc": "Amplitude/Mixpanel, feature adoption, cohort orchestration, A/B testing.",
+          "span": "col-span-full md:col-span-4"
+        },
+        {
+          "title": "Lifecycle & Retention",
+          "desc": "Onboarding → activation → expansion, health scoring, churn prediction.",
+          "span": "col-span-full md:col-span-4"
+        },
+        {
+          "title": "Email Deliverability",
+          "desc": "Domain/IP setup, reputation recovery, list hygiene.",
+          "span": "col-span-full md:col-span-4"
+        }
+      ]
+    },
+    "how_it_works": {
+      "title": "How it works",
+      "steps": ["Diagnose", "Build", "Align", "Optimize"]
+    },
+    "credibility": {
+      "tagline": "Built by operators, not consultants.",
+      "details": "6+ years in Growth & RevOps. Deep HubSpot/outbound/lifecycle expertise.",
+      "testimonials": [
+        {
+          "name": "Cristina Michelini",
+          "company": "Tofu",
+          "result": "15% to 28% trial-to-paid conversion"
+        },
+        {
+          "name": "Ryan Barichello",
+          "company": "Noterro",
+          "result": "92% demo-to-opportunity improvement"
+        },
+        {
+          "name": "Nikolai Grin",
+          "company": "Preclose",
+          "result": "$0-2M ARR journey"
+        },
+        {
+          "name": "TJ Lokboj",
+          "company": "SyndicationPro",
+          "result": "35% MoM growth"
+        },
+        {
+          "name": "Andrew Swiller",
+          "company": "Lanteria",
+          "result": "Transformative alignment across RevOps"
+        }
+      ]
+    }
+  },
+  "testing_attributes": {
+    "rule": "All interactive and key informational elements MUST include a data-testid attribute.",
+    "convention": "kebab-case, role-based (e.g., data-testid='hero-cta-button', data-testid='audit-form-submit')"
+  },
+  "instructions_to_main_agent": [
+    "Ensure the hero background image has an overlay of bg-black/60 to keep text highly legible.",
+    "Do NOT use pure #000000; use the specified #050505 and #111111 for depth.",
+    "Use react-icons/si for company logos (SiHubspot, SiSalesforce, SiMixpanel) if vector logos are needed in the credibility bar.",
+    "Implement the 'Tetris' bento grid exactly as specified for the Services section to break visual monotony.",
+    "Testimonials should be displayed using a scrolling marquee (react-fast-marquee) to convey heavy social proof instantly.",
+    "Add 'data-testid' to all buttons and links.",
+    "Never use purple or teal. Stick strictly to the blue accent (#2563EB).",
+    "Use <section> and <div> for layout, heavily customized with Tailwind. Avoid Shadcn Cards for marketing layouts if they restrict asymmetry."
+  ]
+}
