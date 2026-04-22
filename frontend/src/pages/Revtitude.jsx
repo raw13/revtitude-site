@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { ProblemSection } from "@/components/ProblemSection";
@@ -10,6 +10,16 @@ import { FinalCTA } from "@/components/FinalCTA";
 import { Footer } from "@/components/Footer";
 
 const Revtitude = () => {
+  useEffect(() => {
+    const desired = "Revtitude — Your GTM isn't broken. Your system is.";
+    document.title = desired;
+    // Re-assert once more in case injected scripts overwrite it after mount.
+    const t = setTimeout(() => {
+      if (document.title !== desired) document.title = desired;
+    }, 500);
+    return () => clearTimeout(t);
+  }, []);
+
   return (
     <div
       data-testid="revtitude-home"
