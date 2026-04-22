@@ -36,7 +36,7 @@ export const TESTIMONIALS = [
     role: "Co-founder",
     company: "SyndicationPro",
     avatar:
-      "https://images.pexels.com/photos/32721690/pexels-photo-32721690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://customer-assets.emergentagent.com/job_revenue-engine-154/artifacts/ssjjtz4f_Screenshot%202026-04-22%20at%202.08.48%E2%80%AFPM.png",
     metric: "Scaled to $2M ARR · 35% MoM",
     quote:
       "Rahul and the Revtitude team were instrumental in our journey from $0-2M in ARR. They helped establish the foundational systems and processes using HubSpot to help grow our firm 35% month over month. They were crucial in setting up the systems, the people, and the architecture to help grow our sales org to what it is today.",
