@@ -107,11 +107,11 @@ export const Credibility = () => {
                   "{t.quote}"
                 </p>
                 <div className="mt-6 pt-5 border-t border-slate-800 flex items-center gap-3">
-                  <div className="w-11 h-11 overflow-hidden border border-slate-700 shrink-0">
+                  <div className="w-11 h-11 overflow-hidden border border-slate-700 shrink-0 rounded-full">
                     <img
                       src={t.avatar}
                       alt={t.name}
-                      className="w-full h-full object-cover grayscale"
+                      className="w-full h-full object-cover"
                     />
                   </div>
                   <div>
