@@ -5,14 +5,14 @@ export const Footer = () => {
   return (
     <footer
       data-testid="site-footer"
-      className="border-t border-zinc-900 bg-[#050505]"
+      className="border-t border-slate-800 bg-[#0F1729]"
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-8 py-14">
         <div className="grid md:grid-cols-12 gap-10">
           <div className="md:col-span-5">
             <div className="flex items-center gap-2">
               <div className="w-6 h-6 bg-blue-600 relative">
-                <div className="absolute inset-1 bg-[#050505]" />
+                <div className="absolute inset-1 bg-[#0F1729]" />
               </div>
               <span className="font-heading text-lg font-semibold">
                 Revtitude
@@ -83,7 +83,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-14 pt-6 border-t border-zinc-900 flex flex-col sm:flex-row justify-between gap-3 text-xs text-zinc-600">
+        <div className="mt-14 pt-6 border-t border-slate-800 flex flex-col sm:flex-row justify-between gap-3 text-xs text-zinc-600">
           <span>© {new Date().getFullYear()} Revtitude. All rights reserved.</span>
           <span className="font-mono">
             Built by operators. Not consultants.

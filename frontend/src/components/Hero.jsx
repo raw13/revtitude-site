@@ -25,7 +25,7 @@ export const Hero = () => {
       {/* Grid overlay */}
       <div className="absolute inset-0 z-0 grid-pattern radial-fade opacity-60" />
       {/* Dark fade */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-b from-[#050505]/40 via-[#050505]/70 to-[#050505]" />
+      <div className="absolute inset-0 z-0 bg-gradient-to-b from-[#0F1729]/40 via-[#0F1729]/70 to-[#0F1729]" />
       {/* Blue glow accent */}
       <div className="absolute top-1/3 -left-40 w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-[120px] z-0" />
 
@@ -88,7 +88,7 @@ export const Hero = () => {
           <a
             href="#problem"
             data-testid="hero-secondary-link"
-            className="inline-flex items-center gap-2 text-zinc-300 hover:text-white font-medium px-5 py-4 border border-zinc-800 hover:border-zinc-600 transition-colors"
+            className="inline-flex items-center gap-2 text-zinc-300 hover:text-white font-medium px-5 py-4 border border-slate-700 hover:border-zinc-600 transition-colors"
           >
             See how it works
             <ArrowDown className="w-4 h-4" />
@@ -101,17 +101,17 @@ export const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.7 }}
           data-testid="hero-stats"
-          className="mt-20 grid grid-cols-2 sm:grid-cols-4 gap-px bg-zinc-900 border border-zinc-900 max-w-4xl"
+          className="mt-20 grid grid-cols-2 sm:grid-cols-4 gap-px bg-slate-800 border border-slate-800 max-w-4xl"
         >
           {[
-            { k: "$0→$2M", v: "ARR journey" },
+            { k: "$1–10M", v: "ARR journey" },
             { k: "92%", v: "demo → opp lift" },
             { k: "15→28%", v: "trial → paid" },
             { k: "35%", v: "MoM growth" },
           ].map((s, i) => (
             <div
               key={i}
-              className="bg-[#0a0a0a] p-5 sm:p-6"
+              className="bg-[#1A243A] p-5 sm:p-6"
               data-testid={`hero-stat-${i}`}
             >
               <div className="font-heading text-2xl sm:text-3xl font-bold text-white tracking-tight">

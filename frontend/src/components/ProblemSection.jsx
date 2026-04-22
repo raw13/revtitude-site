@@ -30,7 +30,7 @@ export const ProblemSection = () => {
     <section
       id="problem"
       data-testid="problem-section"
-      className="relative py-24 sm:py-32 border-t border-zinc-900"
+      className="relative py-24 sm:py-32 border-t border-slate-800"
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 mb-16">
@@ -56,7 +56,7 @@ export const ProblemSection = () => {
               it in the gaps: leads that die, deals that churn, features that
               never sell.
             </p>
-            <div className="mt-8 p-5 border-l-2 border-blue-600 bg-[#0a0a0a]">
+            <div className="mt-8 p-5 border-l-2 border-blue-600 bg-[#1A243A]">
               <p className="text-white font-medium">
                 Everyone is working.{" "}
                 <span className="text-blue-400">No one is aligned.</span>
@@ -66,7 +66,7 @@ export const ProblemSection = () => {
         </div>
 
         {/* Grid of leaks */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-zinc-900 border border-zinc-900">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-slate-800 border border-slate-800">
           {LEAKS.map((leak, i) => {
             const Icon = leak.icon;
             return (
@@ -77,7 +77,7 @@ export const ProblemSection = () => {
                 viewport={{ once: true, margin: "-80px" }}
                 transition={{ duration: 0.5, delay: i * 0.08 }}
                 data-testid={`problem-leak-${i}`}
-                className="group bg-[#0a0a0a] hover:bg-[#111111] p-8 sm:p-10 transition-colors relative"
+                className="group bg-[#1A243A] hover:bg-[#243250] p-8 sm:p-10 transition-colors relative"
               >
                 <div className="flex items-start justify-between gap-4">
                   <Icon className="w-6 h-6 text-blue-500 shrink-0 mt-1" strokeWidth={1.5} />

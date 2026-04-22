@@ -8,7 +8,7 @@ export const FinalCTA = () => {
     <section
       id="audit"
       data-testid="final-cta-section"
-      className="relative py-28 sm:py-40 border-t border-zinc-900 overflow-hidden"
+      className="relative py-28 sm:py-40 border-t border-slate-800 overflow-hidden"
     >
       <div className="absolute inset-0 grid-pattern radial-fade opacity-40" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-blue-600/15 rounded-full blur-[160px] pointer-events-none" />

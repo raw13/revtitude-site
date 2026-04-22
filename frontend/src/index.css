@@ -11,7 +11,7 @@ html {
 body {
     margin: 0;
     font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-    background-color: #050505;
+    background-color: #0F1729;
     color: #ffffff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -38,21 +38,21 @@ code, .font-mono {
     height: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #050505;
+    background: #0F1729;
 }
 ::-webkit-scrollbar-thumb {
-    background: #27272A;
+    background: #1F2A44;
     border-radius: 0;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #3f3f46;
+    background: #2d3a5c;
 }
 
 /* Grid background pattern */
 .grid-pattern {
     background-image:
-        linear-gradient(to right, rgba(39, 39, 42, 0.35) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(39, 39, 42, 0.35) 1px, transparent 1px);
+        linear-gradient(to right, rgba(47, 58, 92, 0.35) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(47, 58, 92, 0.35) 1px, transparent 1px);
     background-size: 64px 64px;
 }
 

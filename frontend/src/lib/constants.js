@@ -1,5 +1,4 @@
-// Replace this with your actual Calendly / audit booking URL
-export const AUDIT_URL = "https://calendly.com/revtitude/gtm-audit";
+export const AUDIT_URL = "https://meetings-na2.hubspot.com/rahul-chakraborty";
 
 export const TESTIMONIALS = [
   {

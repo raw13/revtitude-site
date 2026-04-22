@@ -24,7 +24,7 @@ export const Credibility = () => {
     <section
       id="proof"
       data-testid="credibility-section"
-      className="relative py-24 sm:py-32 border-t border-zinc-900"
+      className="relative py-24 sm:py-32 border-t border-slate-800"
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         <div className="grid lg:grid-cols-12 gap-8 mb-16">
@@ -52,9 +52,9 @@ export const Credibility = () => {
         </div>
 
         {/* Stats bar */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-px bg-zinc-900 border border-zinc-900 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-px bg-slate-800 border border-slate-800 mb-12">
           {CREDIBILITY_STATS.map((s, i) => (
-            <div key={i} className="bg-[#0a0a0a] p-8 sm:p-10">
+            <div key={i} className="bg-[#1A243A] p-8 sm:p-10">
               <div className="font-heading text-4xl sm:text-5xl font-bold text-white tracking-tight">
                 {s.k}
               </div>
@@ -66,7 +66,7 @@ export const Credibility = () => {
         </div>
 
         {/* Tools / stack bar */}
-        <div className="flex flex-wrap items-center gap-x-10 gap-y-4 pb-12 mb-12 border-b border-zinc-900">
+        <div className="flex flex-wrap items-center gap-x-10 gap-y-4 pb-12 mb-12 border-b border-slate-800">
           <span className="text-xs uppercase tracking-[0.2em] text-zinc-500 font-mono">
             Stack we live in
           </span>
@@ -92,7 +92,7 @@ export const Credibility = () => {
               <motion.article
                 key={i}
                 data-testid={`testimonial-card-${i}`}
-                className="mx-4 w-[420px] sm:w-[480px] shrink-0 bg-[#0a0a0a] hover:bg-[#111111] border border-zinc-900 hover:border-zinc-700 p-8 transition-all flex flex-col min-h-[360px]"
+                className="mx-4 w-[420px] sm:w-[480px] shrink-0 bg-[#1A243A] hover:bg-[#243250] border border-slate-800 hover:border-zinc-700 p-8 transition-all flex flex-col min-h-[360px]"
               >
                 <Quote
                   className="w-6 h-6 text-blue-500 mb-4"
@@ -106,8 +106,8 @@ export const Credibility = () => {
                 <p className="text-sm sm:text-base text-zinc-300 leading-relaxed flex-1">
                   "{t.quote}"
                 </p>
-                <div className="mt-6 pt-5 border-t border-zinc-900 flex items-center gap-3">
-                  <div className="w-11 h-11 overflow-hidden border border-zinc-800 shrink-0">
+                <div className="mt-6 pt-5 border-t border-slate-800 flex items-center gap-3">
+                  <div className="w-11 h-11 overflow-hidden border border-slate-700 shrink-0">
                     <img
                       src={t.avatar}
                       alt={t.name}

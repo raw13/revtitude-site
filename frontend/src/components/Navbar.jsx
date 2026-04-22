@@ -25,7 +25,7 @@ export const Navbar = () => {
       data-testid="site-navbar"
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "backdrop-blur-xl bg-[#050505]/70 border-b border-zinc-900"
+          ? "backdrop-blur-xl bg-[#0F1729]/70 border-b border-slate-800"
           : "bg-transparent"
       }`}
     >
@@ -36,7 +36,7 @@ export const Navbar = () => {
           className="flex items-center gap-2 group"
         >
           <div className="w-7 h-7 bg-blue-600 relative overflow-hidden">
-            <div className="absolute inset-1 bg-[#050505]" />
+            <div className="absolute inset-1 bg-[#0F1729]" />
             <div className="absolute inset-0 border border-blue-400/40" />
           </div>
           <span className="font-heading text-lg font-semibold tracking-tight">
@@ -82,7 +82,7 @@ export const Navbar = () => {
       {open && (
         <div
           data-testid="nav-mobile-menu"
-          className="md:hidden border-t border-zinc-900 bg-[#050505]/95 backdrop-blur-xl"
+          className="md:hidden border-t border-slate-800 bg-[#0F1729]/95 backdrop-blur-xl"
         >
           <nav className="flex flex-col px-6 py-4 gap-4">
             {NAV_LINKS.map((l) => (

@@ -9,7 +9,7 @@ export const CorePOV = () => {
     <section
       id="approach"
       data-testid="pov-section"
-      className="relative py-24 sm:py-32 border-t border-zinc-900 overflow-hidden"
+      className="relative py-24 sm:py-32 border-t border-slate-800 overflow-hidden"
     >
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-blue-600/10 rounded-full blur-[140px] pointer-events-none" />
       <div className="max-w-7xl mx-auto px-6 sm:px-8 relative">
@@ -63,14 +63,14 @@ export const CorePOV = () => {
             className="lg:col-span-5 relative"
           >
             <div className="relative aspect-square w-full max-w-md mx-auto">
-              <div className="absolute inset-0 border border-zinc-800" />
-              <div className="absolute inset-2 border border-zinc-900" />
+              <div className="absolute inset-0 border border-slate-700" />
+              <div className="absolute inset-2 border border-slate-800" />
               <img
                 src={POV_IMG}
                 alt="Revenue system alignment"
                 className="relative w-full h-full object-cover mix-blend-screen opacity-90"
               />
-              <div className="absolute bottom-0 left-0 right-0 p-5 bg-gradient-to-t from-[#050505] via-[#050505]/80 to-transparent">
+              <div className="absolute bottom-0 left-0 right-0 p-5 bg-gradient-to-t from-[#0F1729] via-[#0F1729]/80 to-transparent">
                 <p className="text-xs uppercase tracking-[0.2em] text-blue-400 font-mono">
                   Revenue System View
                 </p>
