@@ -26,11 +26,10 @@ export const FinalCTA = () => {
           </span>
           <h2
             data-testid="final-cta-heading"
-            className="mt-6 font-heading text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tighter text-white leading-[0.95]"
+            className="mt-6 font-heading text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tighter text-white leading-[1.02]"
           >
-            Want to know where your
-            <br />
-            <span className="text-gradient-blue">revenue is leaking?</span>
+            Want to know where your{" "}
+            <span className="text-gradient-blue lg:block">revenue is leaking?</span>
           </h2>
           <p className="mt-8 text-lg sm:text-xl text-zinc-400 leading-relaxed max-w-2xl">
             Get a breakdown of your GTM system—what's broken, what's

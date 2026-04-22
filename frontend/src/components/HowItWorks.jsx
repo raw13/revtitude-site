@@ -39,7 +39,7 @@ export const HowItWorks = () => {
             </span>
             <h2
               data-testid="process-heading"
-              className="mt-6 font-heading text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tighter text-white leading-[1.02]"
+              className="mt-6 font-heading text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tighter text-white leading-[1.05]"
             >
               From silos to systems.
             </h2>

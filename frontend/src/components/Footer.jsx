@@ -10,9 +10,13 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 py-14">
         <div className="grid md:grid-cols-12 gap-10">
           <div className="md:col-span-5">
-            <div className="flex items-center gap-2">
-              <div className="w-6 h-6 bg-blue-600 relative">
+            <div className="flex items-center gap-2.5">
+              <div className="w-7 h-7 bg-blue-600 relative overflow-hidden flex items-center justify-center shrink-0">
                 <div className="absolute inset-1 bg-[#0F1729]" />
+                <div className="absolute inset-0 border border-blue-400/40 pointer-events-none" />
+                <span className="relative z-10 font-heading text-[11px] font-extrabold text-white leading-none">
+                  R
+                </span>
               </div>
               <span className="font-heading text-lg font-semibold">
                 Revtitude

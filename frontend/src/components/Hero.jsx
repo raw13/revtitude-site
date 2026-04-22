@@ -50,11 +50,10 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
           data-testid="hero-headline"
-          className="font-heading text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tighter text-white max-w-5xl leading-[0.95]"
+          className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tighter text-white max-w-5xl leading-[1]"
         >
-          Your GTM isn't broken.
-          <br />
-          <span className="text-gradient-blue">Your system is.</span>
+          Your GTM isn't broken.{" "}
+          <span className="text-gradient-blue lg:block">Your system is.</span>
         </motion.h1>
 
         <motion.p

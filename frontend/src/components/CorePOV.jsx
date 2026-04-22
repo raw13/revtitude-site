@@ -26,11 +26,10 @@ export const CorePOV = () => {
             </span>
             <h2
               data-testid="pov-heading"
-              className="mt-6 font-heading text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tighter text-white leading-[1.02]"
+              className="mt-6 font-heading text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tighter text-white leading-[1.05]"
             >
-              Growth is not a channel problem.
-              <br />
-              <span className="text-blue-400">It's a systems problem.</span>
+              Growth is not a channel problem.{" "}
+              <span className="text-blue-400 lg:block">It's a systems problem.</span>
             </h2>
             <p className="mt-8 text-lg text-zinc-400 leading-relaxed max-w-2xl">
               Most SaaS companies optimize departments. We optimize the entire

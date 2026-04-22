@@ -42,11 +42,10 @@ export const ProblemSection = () => {
             </div>
             <h2
               data-testid="problem-heading"
-              className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tighter text-white leading-[1.02]"
+              className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tighter text-white leading-[1.05]"
             >
-              Everything looks fine.
-              <br />
-              <span className="text-zinc-500">Until you zoom out.</span>
+              Everything looks fine.{" "}
+              <span className="text-slate-500 lg:block">Until you zoom out.</span>
             </h2>
           </div>
           <div className="lg:col-span-6 lg:col-start-7">

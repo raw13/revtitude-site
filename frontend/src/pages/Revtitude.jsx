@@ -6,6 +6,7 @@ import { CorePOV } from "@/components/CorePOV";
 import { Services } from "@/components/Services";
 import { HowItWorks } from "@/components/HowItWorks";
 import { Credibility } from "@/components/Credibility";
+import { CaseStudies } from "@/components/CaseStudies";
 import { FinalCTA } from "@/components/FinalCTA";
 import { Footer } from "@/components/Footer";
 import { InlineCTA } from "@/components/InlineCTA";
@@ -53,6 +54,7 @@ const Revtitude = () => {
 
         <HowItWorks />
         <Credibility />
+        <CaseStudies />
 
         <InlineCTA
           kicker="Real results, real operators"

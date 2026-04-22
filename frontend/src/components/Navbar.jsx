@@ -33,11 +33,14 @@ export const Navbar = () => {
         <a
           href="#top"
           data-testid="nav-logo"
-          className="flex items-center gap-2 group"
+          className="flex items-center gap-2.5 group"
         >
-          <div className="w-7 h-7 bg-blue-600 relative overflow-hidden">
+          <div className="w-7 h-7 bg-blue-600 relative overflow-hidden flex items-center justify-center shrink-0">
             <div className="absolute inset-1 bg-[#0F1729]" />
-            <div className="absolute inset-0 border border-blue-400/40" />
+            <div className="absolute inset-0 border border-blue-400/40 pointer-events-none" />
+            <span className="relative z-10 font-heading text-[11px] font-extrabold text-white leading-none tracking-tight">
+              R
+            </span>
           </div>
           <span className="font-heading text-lg font-semibold tracking-tight">
             Revtitude
